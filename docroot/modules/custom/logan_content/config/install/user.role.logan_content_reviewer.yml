@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: logan_content_reviewer
+label: 'Logan Content reviewer'
+weight: 20
+is_admin: null
