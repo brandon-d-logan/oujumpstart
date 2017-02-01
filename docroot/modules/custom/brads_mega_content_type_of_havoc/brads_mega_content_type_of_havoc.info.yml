@@ -1,0 +1,12 @@
+name: 'Brads MEGA Content Type of HAVOC'
+description: 'Provides Brads MEGA Content Type of HAVOC content type and related configuration. There will be havoc.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - workbench_moderation

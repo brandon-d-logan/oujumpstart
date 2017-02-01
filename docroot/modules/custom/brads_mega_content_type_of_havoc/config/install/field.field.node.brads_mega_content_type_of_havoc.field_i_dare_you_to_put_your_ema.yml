@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_i_dare_you_to_put_your_ema
+    - node.type.brads_mega_content_type_of_havoc
+id: node.brads_mega_content_type_of_havoc.field_i_dare_you_to_put_your_ema
+field_name: field_i_dare_you_to_put_your_ema
+entity_type: node
+bundle: brads_mega_content_type_of_havoc
+label: 'I dare you to put your email in this field. DO IT. NOW.'
+description: 'Put in your email... .. . .. ... NOW!'
+required: false
+translatable: false
+default_value:
+  -
+    value: yourEmailHERE@example.com
+default_value_callback: ''
+settings: {  }
+field_type: email

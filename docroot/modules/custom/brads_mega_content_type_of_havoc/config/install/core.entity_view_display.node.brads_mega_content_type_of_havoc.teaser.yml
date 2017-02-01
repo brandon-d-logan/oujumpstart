@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.brads_mega_content_type_of_havoc.body
+    - node.type.brads_mega_content_type_of_havoc
+  module:
+    - text
+    - user
+id: node.brads_mega_content_type_of_havoc.teaser
+targetEntityType: node
+bundle: brads_mega_content_type_of_havoc
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

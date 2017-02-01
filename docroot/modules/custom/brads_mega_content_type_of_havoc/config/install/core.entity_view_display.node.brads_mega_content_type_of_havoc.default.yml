@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.brads_mega_content_type_of_havoc.body
+    - field.field.node.brads_mega_content_type_of_havoc.field_i_dare_you_to_put_your_ema
+    - node.type.brads_mega_content_type_of_havoc
+  module:
+    - text
+    - user
+id: node.brads_mega_content_type_of_havoc.default
+targetEntityType: node
+bundle: brads_mega_content_type_of_havoc
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_i_dare_you_to_put_your_ema:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  links:
+    weight: 100
+hidden: {  }
