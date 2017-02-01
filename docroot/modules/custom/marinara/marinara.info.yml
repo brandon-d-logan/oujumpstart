@@ -1,0 +1,12 @@
+name: Marinara
+description: 'Provides Marinara content type and related configuration. Another awesome content type from RiggaToni'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - workbench_moderation
