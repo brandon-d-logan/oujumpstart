@@ -1,0 +1,12 @@
+name: 'Suhay like-um coffee'
+description: 'Provides Suhay like-um coffee content type and related configuration. Gimme COFFEE'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - workbench_moderation
