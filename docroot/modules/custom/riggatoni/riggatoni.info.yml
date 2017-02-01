@@ -1,0 +1,13 @@
+name: RiggaToni
+description: "Provides RiggaToni content type and related configuration. This is Toni's super awesome content type. You know it.\r\n"
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - panelizer
+  - path
+  - text
+  - user
+  - workbench_moderation
