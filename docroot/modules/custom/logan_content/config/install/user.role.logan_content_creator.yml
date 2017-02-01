@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: logan_content_creator
+label: 'Logan Content creator'
+weight: 19
+is_admin: null
