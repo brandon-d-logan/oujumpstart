@@ -1,0 +1,12 @@
+name: Hannum
+description: 'Provides Hannum content type and related configuration. This is a Hannum content type'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - workbench_moderation
