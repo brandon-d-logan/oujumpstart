@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: location_creator
+label: 'Location creator'
+weight: 15
+is_admin: null

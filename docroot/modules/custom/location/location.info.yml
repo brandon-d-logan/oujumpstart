@@ -1,0 +1,12 @@
+name: Location
+description: 'Provides Location content type and related configuration. A location content type.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - workbench_moderation
