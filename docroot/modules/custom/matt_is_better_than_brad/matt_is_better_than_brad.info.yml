@@ -1,0 +1,17 @@
+name: 'Matt is better than Brad'
+description: 'Provides Matt is better than Brad content type and related configuration. The amazing, most stupendous content type that you have ever SEEN'
+type: module
+core: 8.x
+dependencies:
+  - entity_browser
+  - field
+  - file
+  - image
+  - lightning_media_image
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - video_embed_field
+  - workbench_moderation

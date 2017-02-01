@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.matt_is_better_than_brad.body
+    - field.field.node.matt_is_better_than_brad.field_demo_image
+    - field.field.node.matt_is_better_than_brad.field_video_demo
+    - node.type.matt_is_better_than_brad
+  module:
+    - image
+    - text
+    - user
+    - video_embed_field
+id: node.matt_is_better_than_brad.default
+targetEntityType: node
+bundle: matt_is_better_than_brad
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_demo_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_video_demo:
+    weight: 103
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+  links:
+    weight: 100
+hidden: {  }

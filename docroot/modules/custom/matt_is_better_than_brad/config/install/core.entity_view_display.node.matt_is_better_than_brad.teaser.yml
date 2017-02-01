@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.matt_is_better_than_brad.body
+    - node.type.matt_is_better_than_brad
+  module:
+    - text
+    - user
+id: node.matt_is_better_than_brad.teaser
+targetEntityType: node
+bundle: matt_is_better_than_brad
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
