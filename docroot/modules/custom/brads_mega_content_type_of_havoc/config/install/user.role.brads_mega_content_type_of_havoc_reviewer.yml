@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: brads_mega_content_type_of_havoc_reviewer
+label: 'Brads MEGA Content Type of HAVOC reviewer'
+weight: 18
+is_admin: null
