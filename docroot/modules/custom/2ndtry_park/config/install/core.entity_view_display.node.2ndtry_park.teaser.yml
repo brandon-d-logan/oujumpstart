@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.2ndtry_park.body
+    - node.type.2ndtry_park
+  module:
+    - text
+    - user
+id: node.2ndtry_park.teaser
+targetEntityType: node
+bundle: 2ndtry_park
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
