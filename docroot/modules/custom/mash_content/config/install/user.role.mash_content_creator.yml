@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: mash_content_creator
+label: 'MASH Content creator'
+weight: 19
+is_admin: null
