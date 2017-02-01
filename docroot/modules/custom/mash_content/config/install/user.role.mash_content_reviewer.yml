@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: mash_content_reviewer
+label: 'MASH Content reviewer'
+weight: 20
+is_admin: null

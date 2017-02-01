@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mash_content.body
+    - node.type.mash_content
+  module:
+    - text
+    - user
+id: node.mash_content.default
+targetEntityType: node
+bundle: mash_content
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

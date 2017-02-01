@@ -1,0 +1,12 @@
+name: 'MASH Content'
+description: 'Provides MASH Content content type and related configuration. Another content type.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - workbench_moderation
