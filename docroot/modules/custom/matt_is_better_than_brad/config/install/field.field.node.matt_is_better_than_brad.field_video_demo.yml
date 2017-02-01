@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_demo
+    - node.type.matt_is_better_than_brad
+  module:
+    - video_embed_field
+id: node.matt_is_better_than_brad.field_video_demo
+field_name: field_video_demo
+entity_type: node
+bundle: matt_is_better_than_brad
+label: 'Video Demo'
+description: 'A Living demonstration as to why this content type is true.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    vimeo: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field
