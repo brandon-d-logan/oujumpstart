@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.riggatoni
+id: node.riggatoni.field_email
+field_name: field_email
+entity_type: node
+bundle: riggatoni
+label: Email
+description: 'Enter your email address. So we can spam you.'
+required: true
+translatable: false
+default_value:
+  -
+    value: spam.you@who.me
+default_value_callback: ''
+settings: {  }
+field_type: email
