@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Brandon
+type: brandon
+description: 'All the best content. Period.'
+help: 'Submit to the best content. You will submit!'
+new_revision: true
+preview_mode: 1
+display_submitted: false
