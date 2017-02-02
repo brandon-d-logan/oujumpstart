@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ohio_brad.body
+    - node.type.ohio_brad
+  module:
+    - text
+    - user
+id: node.ohio_brad.default
+targetEntityType: node
+bundle: ohio_brad
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
