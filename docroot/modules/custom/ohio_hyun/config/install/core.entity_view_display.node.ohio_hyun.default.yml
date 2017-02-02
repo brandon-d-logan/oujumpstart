@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ohio_hyun.body
+    - node.type.ohio_hyun
+  module:
+    - text
+    - user
+id: node.ohio_hyun.default
+targetEntityType: node
+bundle: ohio_hyun
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
