@@ -1,0 +1,12 @@
+name: 'David Platek'
+description: 'Provides David Platek content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - workbench_moderation
