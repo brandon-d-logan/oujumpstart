@@ -1,0 +1,6 @@
+name: 'Matt tax'
+description: 'Matt tax'
+type: module
+core: 8.x
+dependencies:
+  - taxonomy
