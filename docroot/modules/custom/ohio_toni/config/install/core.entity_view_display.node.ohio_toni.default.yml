@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ohio_toni.body
+    - field.field.node.ohio_toni.field_pay_me
+    - node.type.ohio_toni
+  module:
+    - text
+    - user
+id: node.ohio_toni.default
+targetEntityType: node
+bundle: ohio_toni
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_pay_me:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  links:
+    weight: 100
+hidden: {  }

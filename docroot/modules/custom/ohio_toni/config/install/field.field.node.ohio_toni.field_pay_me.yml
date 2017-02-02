@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pay_me
+    - node.type.ohio_toni
+id: node.ohio_toni.field_pay_me
+field_name: field_pay_me
+entity_type: node
+bundle: ohio_toni
+label: 'Pay me'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 1
+  max: !!float 100
+  prefix: ''
+  suffix: ''
+field_type: decimal
