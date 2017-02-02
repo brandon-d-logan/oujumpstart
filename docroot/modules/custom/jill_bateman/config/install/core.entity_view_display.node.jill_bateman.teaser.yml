@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.jill_bateman.body
+    - node.type.jill_bateman
+  module:
+    - text
+    - user
+id: node.jill_bateman.teaser
+targetEntityType: node
+bundle: jill_bateman
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
