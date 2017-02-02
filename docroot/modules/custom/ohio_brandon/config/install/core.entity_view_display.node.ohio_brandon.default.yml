@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ohio_brandon.body
+    - node.type.ohio_brandon
+  module:
+    - text
+    - user
+id: node.ohio_brandon.default
+targetEntityType: node
+bundle: ohio_brandon
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

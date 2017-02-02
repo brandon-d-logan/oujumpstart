@@ -1,0 +1,12 @@
+name: 'OHIO Brandon'
+description: 'Provides OHIO Brandon content type and related configuration. This is another test.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - workbench_moderation
