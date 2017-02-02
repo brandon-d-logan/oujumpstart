@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Brad Vocabulary'
+vid: brad_vocabulary
+description: 'Brad''s Vocabulary of words and stuff'
+hierarchy: 0
+weight: 0
