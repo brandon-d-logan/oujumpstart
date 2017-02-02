@@ -1,0 +1,12 @@
+name: 'Jill Bateman'
+description: 'Provides Jill Bateman content type and related configuration. content type again'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - workbench_moderation
