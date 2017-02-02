@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Toni-Taxonomy
+vid: toni_taxonomy
+description: 'a good taxonomy to start using'
+hierarchy: 0
+weight: 0
