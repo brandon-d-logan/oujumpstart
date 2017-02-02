@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ohio_dave.body
+    - node.type.ohio_dave
+  module:
+    - text
+    - user
+id: node.ohio_dave.default
+targetEntityType: node
+bundle: ohio_dave
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
