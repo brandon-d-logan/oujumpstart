@@ -1,0 +1,12 @@
+name: 'Some Thing'
+description: 'Provides Some Thing content type and related configuration. This is really something.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+  - workbench_moderation
