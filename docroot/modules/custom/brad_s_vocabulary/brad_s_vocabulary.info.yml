@@ -1,0 +1,7 @@
+name: 'Brad''s Vocabulary'
+description: 'Brad''s Vocabulary'
+type: module
+core: 8.x
+dependencies:
+  - taxonomy
+version: 8.x-1.0
